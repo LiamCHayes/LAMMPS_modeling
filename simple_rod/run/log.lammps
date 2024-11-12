@@ -37,203 +37,203 @@ neigh_modify page 500000 one 50000
 
 
 include beam_1.txt
-create_atoms 1 single 0.0 0.0 -0.0475
+create_atoms 1 single 0.0 0.0 -0.025
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.045561224489795916
+create_atoms 1 single 0.0 0.0 -0.023979591836734697
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.001 seconds
-create_atoms 1 single 0.0 0.0 -0.04362244897959184
+create_atoms 1 single 0.0 0.0 -0.02295918367346939
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.041683673469387755
+create_atoms 1 single 0.0 0.0 -0.02193877551020408
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.03974489795918367
+create_atoms 1 single 0.0 0.0 -0.020918367346938777
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.037806122448979594
+create_atoms 1 single 0.0 0.0 -0.019897959183673472
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.03586734693877551
+create_atoms 1 single 0.0 0.0 -0.018877551020408164
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.033928571428571426
+create_atoms 1 single 0.0 0.0 -0.017857142857142856
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.03198979591836735
+create_atoms 1 single 0.0 0.0 -0.01683673469387755
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.030051020408163265
+create_atoms 1 single 0.0 0.0 -0.015816326530612247
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.028112244897959184
+create_atoms 1 single 0.0 0.0 -0.014795918367346941
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.026173469387755104
+create_atoms 1 single 0.0 0.0 -0.013775510204081633
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.02423469387755102
+create_atoms 1 single 0.0 0.0 -0.012755102040816327
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.02229591836734694
+create_atoms 1 single 0.0 0.0 -0.01173469387755102
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.020357142857142855
+create_atoms 1 single 0.0 0.0 -0.010714285714285714
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.018418367346938774
+create_atoms 1 single 0.0 0.0 -0.00969387755102041
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.016479591836734694
+create_atoms 1 single 0.0 0.0 -0.008673469387755102
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.014540816326530613
+create_atoms 1 single 0.0 0.0 -0.007653061224489794
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.012602040816326529
+create_atoms 1 single 0.0 0.0 -0.0066326530612244895
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.010663265306122452
+create_atoms 1 single 0.0 0.0 -0.005612244897959185
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.008724489795918368
+create_atoms 1 single 0.0 0.0 -0.004591836734693881
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.006785714285714284
+create_atoms 1 single 0.0 0.0 -0.0035714285714285726
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.004846938775510207
+create_atoms 1 single 0.0 0.0 -0.0025510204081632647
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.0029081632653061226
+create_atoms 1 single 0.0 0.0 -0.0015306122448979567
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.0009693877551020386
+create_atoms 1 single 0.0 0.0 -0.0005102040816326522
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.0009693877551020386
+create_atoms 1 single 0.0 0.0 0.0005102040816326522
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.0029081632653061226
+create_atoms 1 single 0.0 0.0 0.0015306122448979602
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.0048469387755102
+create_atoms 1 single 0.0 0.0 0.0025510204081632647
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.006785714285714291
+create_atoms 1 single 0.0 0.0 0.0035714285714285726
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.008724489795918368
+create_atoms 1 single 0.0 0.0 0.004591836734693881
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.010663265306122452
+create_atoms 1 single 0.0 0.0 0.005612244897959182
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.012602040816326529
+create_atoms 1 single 0.0 0.0 0.006632653061224486
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.014540816326530613
+create_atoms 1 single 0.0 0.0 0.0076530612244897975
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.016479591836734697
+create_atoms 1 single 0.0 0.0 0.008673469387755102
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.018418367346938774
+create_atoms 1 single 0.0 0.0 0.009693877551020413
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.020357142857142865
+create_atoms 1 single 0.0 0.0 0.010714285714285711
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.022295918367346942
+create_atoms 1 single 0.0 0.0 0.011734693877551022
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.02423469387755102
+create_atoms 1 single 0.0 0.0 0.012755102040816327
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.026173469387755097
+create_atoms 1 single 0.0 0.0 0.013775510204081631
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.028112244897959188
+create_atoms 1 single 0.0 0.0 0.014795918367346943
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.030051020408163265
+create_atoms 1 single 0.0 0.0 0.01581632653061224
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.03198979591836734
+create_atoms 1 single 0.0 0.0 0.01683673469387755
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.03392857142857143
+create_atoms 1 single 0.0 0.0 0.017857142857142856
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.03586734693877551
+create_atoms 1 single 0.0 0.0 0.01887755102040816
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.03780612244897959
+create_atoms 1 single 0.0 0.0 0.019897959183673472
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.03974489795918368
+create_atoms 1 single 0.0 0.0 0.020918367346938777
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.041683673469387755
+create_atoms 1 single 0.0 0.0 0.021938775510204088
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.04362244897959183
+create_atoms 1 single 0.0 0.0 0.022959183673469385
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.04556122448979592
+create_atoms 1 single 0.0 0.0 0.023979591836734697
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.0475
+create_atoms 1 single 0.0 0.0 0.025
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -243,7 +243,7 @@ Setting atom values ...
 set type 1 density 0.01
 Setting atom values ...
   50 settings made for density
-bond_coeff 1 232.10526315789474 0.0019387755102040817
+bond_coeff 1 441.0 0.0010204081632653062
 include bonds_1.txt
 create_bonds single/bond 1 1 2
 Finding 1-2 1-3 1-4 neighbors ...
@@ -588,7 +588,7 @@ Finding 1-2 1-3 1-4 neighbors ...
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
   special bonds CPU = 0.000 seconds
-angle_coeff 1 0.0003481578947368421
+angle_coeff 1 0.0006615000000000001
 include angles_1.txt
 create_bonds single/angle 1 1 2 3
 Finding 1-2 1-3 1-4 neighbors ...
@@ -783,147 +783,4 @@ create_bonds single/angle 1 28 29 30
 Finding 1-2 1-3 1-4 neighbors ...
   special bond factors lj:    0        1        1       
   special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 29 30 31
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 30 31 32
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 31 32 33
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 32 33 34
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 33 34 35
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 34 35 36
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 35 36 37
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 36 37 38
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 37 38 39
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 38 39 40
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 39 40 41
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 40 41 42
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 41 42 43
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 42 43 44
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 43 44 45
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 44 45 46
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 45 46 47
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 46 47 48
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 47 48 49
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 48 49 50
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-Total wall time: 0:00:00
+     2 = max # of 1-2 neigh

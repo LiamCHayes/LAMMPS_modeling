@@ -27,7 +27,19 @@ neigh_modify page 500000 one 50000
 include beam_1.txt 
 set type 1 diameter 0.003
 set type 1 density 0.01
-bond_coeff 1 232.10526315789474 0.0019387755102040817
+bond_coeff 1 441.0 0.0010204081632653062
 include bonds_1.txt
-angle_coeff 1 0.0003481578947368421
+angle_coeff 1 0.0006615000000000001
 include angles_1.txt
+
+fix fix_viscosity_1 all viscous 1e-06
+
+compute bendingE all pe/atom angle
+compute stretchingE all pe/atom bond
+dump pump all custom 1 out*.dump id type radius x y z fx fy fz c_bendingE c_stretchingE
+dump_modify pump pad 11
+
+timestep 2.830948069718579e-06
+dump_modify pump every 17662
+dump DUMPFILE all xyz 100 dump.xyz
+run 353239
