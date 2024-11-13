@@ -31,7 +31,7 @@ bond_coeff 1 4500.0 0.01
 include bonds_1.txt
 angle_coeff 1 0.6749999999999999
 include angles_1.txt
-pair_coeff 1 1 granular hertz/material 1000000 0 0.5 tangential linear_nohistory 0 0
+pair_coeff * * granular hertz/material 1000000 0 0.5 tangential linear_nohistory 0 0
 dump DUMPFILE all xyz 100 dump.xyz
 
 compute bendingE all pe/atom angle

@@ -134,7 +134,7 @@ Finding 1-2 1-3 1-4 neighbors ...
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
   special bonds CPU = 0.000 seconds
-pair_coeff 1 1 granular hertz/material 1000000 0 0.5 tangential linear_nohistory 0 0
+pair_coeff * * granular hertz/material 1000000 0 0.5 tangential linear_nohistory 0 0
 dump DUMPFILE all xyz 100 dump.xyz
 
 compute bendingE all pe/atom angle
@@ -167,20 +167,20 @@ Per MPI rank memory allocation (min/avg/max) = 47.58 | 47.58 | 47.58 Mbytes
    Step          Temp          E_pair         E_mol          TotEng         Press     
          0   0              0              2.572922e-31   2.572922e-31   41.056019    
    2000000   7.0175726e+21  0              0.14549304     0.87215412     24.249006    
-Loop time of 36.7677 on 1 procs for 2000000 steps with 6 atoms
+Loop time of 35.671 on 1 procs for 2000000 steps with 6 atoms
 
-98.4% CPU use with 1 MPI tasks x 1 OpenMP threads
+98.6% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 1.0285     | 1.0285     | 1.0285     |   0.0 |  2.80
-Bond    | 0.45073    | 0.45073    | 0.45073    |   0.0 |  1.23
-Neigh   | 31.817     | 31.817     | 31.817     |   0.0 | 86.54
-Comm    | 0.89206    | 0.89206    | 0.89206    |   0.0 |  2.43
-Output  | 0.13329    | 0.13329    | 0.13329    |   0.0 |  0.36
-Modify  | 0.40168    | 0.40168    | 0.40168    |   0.0 |  1.09
-Other   |            | 2.044      |            |       |  5.56
+Pair    | 0.94746    | 0.94746    | 0.94746    |   0.0 |  2.66
+Bond    | 0.45278    | 0.45278    | 0.45278    |   0.0 |  1.27
+Neigh   | 31.024     | 31.024     | 31.024     |   0.0 | 86.97
+Comm    | 0.79101    | 0.79101    | 0.79101    |   0.0 |  2.22
+Output  | 0.12443    | 0.12443    | 0.12443    |   0.0 |  0.35
+Modify  | 0.39673    | 0.39673    | 0.39673    |   0.0 |  1.11
+Other   |            | 1.934      |            |       |  5.42
 
 Nlocal:              6 ave           6 max           6 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -194,4 +194,4 @@ Ave neighs/atom = 0.66666667
 Ave special neighs/atom = 1.6666667
 Neighbor list builds = 1906831
 Dangerous builds = 1820018
-Total wall time: 0:00:36
+Total wall time: 0:00:35
