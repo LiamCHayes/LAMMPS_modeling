@@ -5,7 +5,7 @@ comm_modify vel yes
 
 region simulationStation block -0.25 0.25 -0.25 0.25 -0.1 0.1
 create_box 100 simulationStation bond/types 100000 extra/bond/per/atom 100 angle/types 10000 extra/angle/per/atom 100
-change_box	all boundary f f f
+change_box	all boundary p p f
 
 pair_style hybrid/overlay granular lj/cut 0
 pair_coeff  * * granular hertz/material 0 0 0 tangential linear_nohistory 0 0
