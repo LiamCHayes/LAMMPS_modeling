@@ -27,14 +27,25 @@ neigh_modify page 500000 one 50000
 include grains_1.txt 
 set type 1 diameter 0.01
 set type 1 density 0.01
+
+include grains_2.txt 
+set type 2 diameter 0.01
+set type 2 density 0.01
 pair_coeff 1 1 granular hertz/material 1000000 0 0.5 tangential linear_nohistory 0 0
+pair_coeff 2 2 granular hertz/material 1000000 0 0.5 tangential linear_nohistory 0 0
+
+group group_perturb_1 id 1
+fix fix_perturb_1 group_perturb_1 gravity 1e-05 vector 0.01 0.01 0
+
+group group_perturb_2 id 2
+fix fix_perturb_2 group_perturb_2 gravity 1e-05 vector -0.01 -0.01 0
 
 compute bendingE all pe/atom angle
 compute stretchingE all pe/atom bond
 dump pump all custom 1 out*.dump id type radius x y z fx fy fz c_bendingE c_stretchingE
 dump_modify pump pad 11
 
-timestep 0.00031943828249997
+timestep 0.01
 dump DUMPFILE all xyz 100 dump.xyz
-dump_modify pump every 157
-run 3130
+dump_modify pump every 5
+run 100

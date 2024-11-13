@@ -37,423 +37,840 @@ neigh_modify page 500000 one 50000
 
 
 include grains_1.txt
-create_atoms 1 single -0.08871600913263433 0.022585773221186267 0.0
+create_atoms 1 single -0.2518644319416252 -0.11316921998992713 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.3107860541143872 -0.2586733971500492 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.43780567908567636 -0.17804747075389937 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.02577292349475735 0.11061671788708638 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.36204394604742873 -0.15527522025381213 0.0
+create_atoms 1 single -0.26106670720173164 0.4205336311730561 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.1843836946325701 -0.4401994148270212 0.0
+create_atoms 1 single 0.31590602641615606 0.2598281495546363 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.26948542643169193 0.10198445599953543 0.0
+create_atoms 1 single 0.10852155377586314 -0.2865474067638393 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.368688174469609 0.4206756392227723 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.4539458124810166 0.3307400821473827 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.25440396151761846 0.35694531441213084 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.14791991393931803 0.049713667966486685 0.0
+create_atoms 1 single 0.11143554056372518 -0.056454597302720955 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.001 seconds
-create_atoms 1 single 0.43963915952680066 0.20960530542317735 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.22657687198078036 -0.14349099854393554 0.0
+create_atoms 1 single -0.16067326635641255 0.09755107750738556 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.40589040762493767 -0.43040905206413504 0.0
+create_atoms 1 single -0.49293357097008406 -0.06393191962725953 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.03346881128774415 -0.21099306170609433 0.0
+create_atoms 1 single -0.4139450885754108 0.22018171364160588 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.10313885852044047 -0.41707633709820435 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.22890757022708785 -0.4396677985982679 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.06702240578886842 -0.48593785812918067 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.24575213746682478 0.10261866871060266 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.06586531327318157 -0.47455801895933747 0.0
+create_atoms 1 single -0.4900605989157216 -0.2356094690894176 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.39509790080253626 0.4991167419992353 0.0
+create_atoms 1 single -0.01911215804451849 0.281116398874958 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.33239293627262534 -0.4833619769838956 0.0
+create_atoms 1 single -0.2989430426372742 0.34386720028795026 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.17961641551729335 -0.2568361682709528 0.0
+create_atoms 1 single 0.3900954532516979 0.03860001535341273 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.38077869349780913 -0.15167154725396126 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.4084495114904003 -0.36289650538023976 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.4366795124183852 0.16554283866348374 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.2611968757095946 -0.26145497161665454 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.06149464916387315 -0.2643160746599207 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.14662826998333067 0.3987324590125091 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.1618939795505029 0.2632262218420759 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.24657793109496962 0.13126268082658343 0.0
+create_atoms 1 single -0.020363073631208706 -0.24574248964634737 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.24313498595864025 0.31036157294859557 0.0
+create_atoms 1 single -0.36906896197866446 -0.20609831753744146 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.344195181221862 0.18822018735738666 0.0
+create_atoms 1 single -0.41441147690729263 -0.3327906777444182 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.3938706808714554 -0.09970173710848895 0.0
+create_atoms 1 single -0.13674798319983972 -0.43402952323054433 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.27702899768004197 -0.3857712115344021 0.0
+create_atoms 1 single -0.10853191660164707 0.46663113371409914 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.2506480435228263 0.1284787422561382 0.0
+create_atoms 1 single 0.3347305613011706 -0.055571019784440456 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.07464561086206178 0.2317941134716507 0.0
+create_atoms 1 single 0.33367492761172124 0.49695844653104204 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.2799093402657974 0.04571989442176205 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.17235623931547406 0.43177201489015793 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.21487886385921018 -0.13308571518882684 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.2835313196846657 -0.1312316025171394 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.23646406772357742 -0.3763599353800847 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.25489813570098796 0.23807158831249475 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.1854217493407868 0.203425471696683 0.0
+create_atoms 1 single 0.2326272230321086 0.1826437535221762 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.060530226519803 -0.14536291706879056 0.0
+create_atoms 1 single 0.08440058739071299 0.42457684442803745 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.2702010099136134 0.21733226420446294 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.35596347045112675 -0.42198852085810357 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.3937883225283406 0.2790642964188519 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.4911921906063037 -0.1912869918148924 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.38506289512889236 -0.25265592393355507 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.30271417599273065 0.1381499354851815 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.30205826075615383 -0.3733593980619585 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.19258414807820678 -0.2909851638828066 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.014139266409100015 0.12877116105021036 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.36886902539431166 -0.2748471772055425 0.0
+create_atoms 1 single -0.07337972340525556 -0.32361638729713504 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.22869825005356792 0.32748248222762166 0.0
+create_atoms 1 single -0.13059407323900663 -0.33558344728247447 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.4286559718513976 -0.48384211604391114 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.07135313999257609 0.13338140102829021 0.0
+create_atoms 1 single 0.24415634529474806 0.00026322944587209296 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.4393988092848311 0.4696551657201872 0.0
+create_atoms 1 single -0.28641418501033133 0.463603570333301 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.27962066271233066 -0.2716852107255806 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.144247286380362 0.3856191441965252 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.28000173324101285 -0.0840890207849826 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.4986378463032465 -0.23518281921432305 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.34726356895896904 -0.41102594099089174 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.37439257449640395 -0.29833604261727165 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.42449482291332175 -0.11120883488559774 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.33896576130723655 0.22572785068532963 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.26990677817214426 0.2209819292359002 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.38988843792485117 -0.27918372630930144 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.07659708387929587 0.1540256362364224 0.0
+create_atoms 1 single -0.07230765452846044 0.09363979280827572 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.09640805665210084 0.1784586154333334 0.0
+create_atoms 1 single -0.06418948154089565 0.02992679627987438 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.42610130722255013 0.12069676261734241 0.0
+create_atoms 1 single 0.39223780359063165 -0.1581930950266719 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.38804676119952686 -0.4842398046039461 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.1972968896483155 0.07912684658440139 0.0
+create_atoms 1 single 0.21113028809266354 0.16548320433153907 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.3971287734248261 -0.3136700370942823 0.0
+create_atoms 1 single 0.4808948785623641 -0.1119504791119671 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.15499943832573382 -0.4188070108033485 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.06223061220437731 0.4999343013729465 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.3394586841613625 -0.4120404471628233 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.3150471523744105 -0.30057937219801634 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.002274644502246348 0.49320873032643064 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.3687760569672883 -0.0052693866704460746 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.31408476046304357 0.11215816246513555 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.45690544103478037 -0.16279941924353702 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.16943875423519394 0.2920527767928587 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.2915991724623548 0.40598670205399556 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.08441710008510706 0.033652874239959996 0.0
+create_atoms 1 single 0.1788110303747278 0.24066683694149582 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.4772701052428735 0.030636848607639044 0.0
+create_atoms 1 single -0.36931624685027475 -0.040436711047081464 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.15055068651516768 0.15180620416217405 0.0
+create_atoms 1 single 0.36201106930424853 -0.19377516687290353 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.4332901600215995 0.10224149835442131 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.02878898556169407 0.29491672659689505 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.13054696780901864 0.2397071279151448 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.4420798609626352 -0.4904131291679322 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.036867289612188325 0.46787649798088515 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.08274974376409439 0.009582445768474335 0.0
+create_atoms 1 single 0.14196935835610858 0.04018860404217495 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.21575199513115517 0.09401793991555574 0.0
+create_atoms 1 single -0.35282200743484116 0.15437893142709125 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.2007012008215664 -0.11135860531497888 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.37237037104391824 -0.17160900060023798 0.0
+create_atoms 1 single -0.29197684323455564 -0.07312009073628079 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.1092902606104077 0.1698052983346363 0.0
+create_atoms 1 single -0.21654060192823754 -0.12253379632447947 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.028220854739039347 -0.3250100631785162 0.0
+create_atoms 1 single -0.3632713150775241 0.4981302324413055 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.24990352169606866 -0.2838769346915979 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.31597021943737036 0.17837606181195975 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.26219129197737456 0.45051811801004127 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.26821963075603183 -0.06878423672176348 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.18119308315754712 0.3057372140139981 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.07039166923043416 -0.39548950229338664 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.4221165372623782 0.32030121280474766 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.46682217599371434 0.4301269341879267 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.49147086289536357 0.4372215721128365 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.22934260300476306 0.46947364881006215 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.008097120951468417 -0.4087377150772168 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.3424179245482061 0.4455947897446062 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.3228438884732764 0.44219291480773093 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.3393945380515192 -0.3912008285640104 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.23389227112350452 0.3510766658109764 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.26527767726805707 -0.48957358605385326 0.0
-Created 0 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0955422468195567 -0.006179672558752847 0.0
+create_atoms 1 single 0.14705641494453292 0.19901839809618005 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.022214716050572125 0.1883390374622107 0.0
+create_atoms 1 single 0.1189975066027591 0.4152230907863682 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.2765427296961799 0.0009169631636373188 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.020479791625442334 -0.14428685109900652 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.4372923551217195 -0.24468255247048942 0.0
+create_atoms 1 single -0.4641259194623705 0.24666535320183525 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.27871125959063014 0.15979311813068775 0.0
+create_atoms 1 single 0.48227276431092303 -0.46588560001814594 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.36998971562498917 0.034660314967568495 0.0
+create_atoms 1 single -0.17050962349127663 0.2058340615547385 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.07400229578486006 0.4947045508938438 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.42391350057226707 0.25363976220237605 0.0
+create_atoms 1 single 0.1461263912692925 0.263290441258879 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.03665384148341955 0.4439356292476435 0.0
+create_atoms 1 single 0.123706014791374 -0.31336192408594077 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.37929917370699295 0.32708929389853825 0.0
+create_atoms 1 single 0.08365134585221567 -0.43508744297040314 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.05343449945673007 -0.1377573215760931 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.04483867166468347 0.24376848673634288 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.20542350624221395 -0.1497590060600983 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.203376742240729 0.4408827180105088 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.22268028311823085 0.4909761955708748 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.43543740380265494 -0.23070248335652266 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.42340155449565753 0.19965679565254513 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.28506293248396175 -0.19754939129944282 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.43869403339806 0.15897306155709567 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.0515623682431392 -0.20867743824565133 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.13634298840739678 -0.4120466274765747 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.3530834109066313 0.19685217972572633 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.36803682693720186 0.13579214507928483 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.12219758248066648 0.22854200785620238 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.34358346193180855 0.3488407798256211 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.369279776522794 0.17527752487111248 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.017892591308420025 -0.4421309024524228 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.061188941240731376 0.172548392207166 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.04735661535331037 -0.12231065886664705 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.41288450998713166 -0.35119188767943 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.1445817144658995 0.43568735479606613 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.3530764516610081 0.14680648344755964 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.29992694056623237 -0.35832104552509725 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.48891661424899524 -0.03503624350438583 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.25072343017716137 -0.4089001673680781 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.298064792716192 -0.3757739354538061 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.20274505758356942 -0.09297523008933983 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single 0.23388288797826529 -0.30101945495696214 0.0
 Created 0 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
 set type 1 diameter 0.01
 Setting atom values ...
-  19 settings made for diameter
+  28 settings made for diameter
 set type 1 density 0.01
 Setting atom values ...
-  19 settings made for density
+  28 settings made for density
+
+include grains_2.txt
+create_atoms 2 single -0.055268245253310644 0.009134060275021949 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.21770094902310766 0.154103830810968 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.33721472307190903 0.1383071260893589 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.34833244292417664 0.026243970537952355 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.23325659992421877 0.1777331261038032 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.03251408455622029 0.39291499684484377 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.49708246654880517 0.19447541336585883 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.263032619308491 0.38083590854066307 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.41090081518006594 0.11448661422929907 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.08014673278564544 0.17380283448417866 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.42452981215143426 -0.45879896715340573 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.07008584506433979 -0.14561599110666557 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.3764164559672484 -0.05770642857180053 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.2797390862692295 -0.3466112023027106 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.27396531967029236 0.07749738199139866 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.01343759554060886 0.3288584994267627 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.4784844671630022 0.4495080206175307 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.4836847872299408 0.06034500374766272 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.2589939249487425 -0.05485798374665918 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.1209558326132022 0.4647624553671035 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.11789573027099143 0.2100828510657322 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.0781436677409717 0.24232467319179118 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.10593332241612141 -0.3906532176370553 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.2487296542261419 0.13202677042334976 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.08773704323022802 0.3727278659720319 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.22173779654345815 0.09694548997824626 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.4564837588756564 0.18657386560160583 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.01703201903977558 -0.048605968971767166 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.06487615730577523 0.44491158359066585 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.344583357857837 -0.37311642736008277 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.4676400345365639 0.46924952519222585 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.0460899990064606 -0.43188861857814187 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.40533599256804886 0.15982359884118114 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.12462054986086957 0.46726311291800937 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.31747049423904994 0.272410170143225 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.21037989199821805 0.47590869801554214 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.25649758622354946 -0.22191210925600824 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.06491220479147075 0.3364399939574422 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.21157799517916165 0.055562767049672446 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.4162357583202816 0.06797955856634996 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.06760959665023814 0.018743658771872784 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.44242413159902816 -0.17566547491582307 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.011292751864512951 0.11538177856521281 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.20309748050320253 0.18220302618640194 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.40300606452333654 0.23515436975086967 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.45663721721774986 -0.13410210352263885 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.4642657439035086 0.2653848137406707 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.3127139093018362 -0.43866106059442056 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.007089816845695762 0.3941884638822928 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.4663530892500918 -0.47830659718704116 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.4263845031281147 0.1515321294767934 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.34253386524265117 -0.041542690145983885 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.34282378838170624 -0.06565169545074401 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.38450355702940253 0.3574708401484733 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.35159306407771607 0.1417555186836107 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.339006358080424 0.3784234463770396 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.21014882459113549 -0.31015546091243784 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.14596564350426133 -0.39822849785138326 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.1088911950131718 -0.2228859426455928 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.24076852461630738 0.30432453168291396 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.22385239467821427 0.46188633375818533 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.40105475509880084 -0.25265862828852936 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.3369305500006877 -0.46983658811755646 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.26408678057947466 0.4631917534923077 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.3026492342839492 0.4617817463895426 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.4955214256757807 -0.20719235280951553 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.26515420359197484 -0.2652129262164954 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.18322347452641274 0.1127036989333422 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.126016517164954 -0.25390953103904246 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.14791183834545196 0.4327305117755592 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.32329299184659943 0.495351438354371 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.39932060758177035 0.22242477243246817 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.4389719569242203 -0.11602968749116549 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.3969945529625867 -0.0036595282431205467 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.2836880773004181 -0.016968345895984505 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.46798959561485665 0.1800042388995684 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.44548299917973755 -0.15063556291566482 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.1386840992623567 -0.022886406819204064 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.4009239329784886 -0.17496712102381995 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.4170411202103085 -0.06564686415737275 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.3736230591939903 0.09131416143912163 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.22293738843901523 0.12898741065204444 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.0850588943591668 -0.07637095228755941 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.16531344263958903 -0.25069935894875417 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.36299253327945424 0.4134826278694047 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.04356147117567455 0.3082828468174672 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.20263144616749074 -0.07316491921923984 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.2430262034480677 -0.24510536104977088 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.004955792701878736 0.12504317009521226 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.10058331871407589 -0.46884934791530175 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.3539829001656213 -0.2113067399978189 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.3693557646944101 -0.09302247726999069 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.06118137341496399 -0.39509744170056715 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.45729362349013836 -0.3132212764130641 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.26711340531844896 0.31069289592049587 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.25465533342223035 0.3666475303335156 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.250463726273742 0.06708820318584297 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single -0.3145656719067321 0.05133802899489792 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.014481253909812364 -0.3912784605119144 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 2 single 0.26247999103636965 0.06553407515431886 0.0
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+set type 2 diameter 0.01
+Setting atom values ...
+  22 settings made for diameter
+set type 2 density 0.01
+Setting atom values ...
+  22 settings made for density
 pair_coeff 1 1 granular hertz/material 1000000 0 0.5 tangential linear_nohistory 0 0
+pair_coeff 2 2 granular hertz/material 1000000 0 0.5 tangential linear_nohistory 0 0
+
+group group_perturb_1 id 1
+1 atoms in group group_perturb_1
+fix fix_perturb_1 group_perturb_1 gravity 1e-05 vector 0.01 0.01 0
+
+group group_perturb_2 id 2
+1 atoms in group group_perturb_2
+fix fix_perturb_2 group_perturb_2 gravity 1e-05 vector -0.01 -0.01 0
 
 compute bendingE all pe/atom angle
 compute stretchingE all pe/atom bond
 dump pump all custom 1 out*.dump id type radius x y z fx fy fz c_bendingE c_stretchingE
 dump_modify pump pad 11
 
-timestep 0.00031943828249997
+timestep 0.01
 dump DUMPFILE all xyz 100 dump.xyz
-dump_modify pump every 157
-run 3130
+dump_modify pump every 5
+run 100
 Generated 0 of 4950 mixed pair_coeff terms from geometric mixing rule
 Neighbor list info ...
   update: every = 1 steps, delay = 0 steps, check = yes
@@ -475,31 +892,31 @@ Neighbor list info ...
 Per MPI rank memory allocation (min/avg/max) = 48.9 | 48.9 | 48.9 Mbytes
    Step          Temp          E_pair         E_mol          TotEng         Press     
          0   0              0              0              0              0            
-      3130   0              0              0              0              0            
-Loop time of 0.0195112 on 1 procs for 3130 steps with 19 atoms
+       100   515.97369      0              0              5.2359878e-19  6.981317e-18 
+Loop time of 0.0111745 on 1 procs for 100 steps with 50 atoms
 
-19.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+28.5% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00067549 | 0.00067549 | 0.00067549 |   0.0 |  3.46
-Bond    | 0.00013849 | 0.00013849 | 0.00013849 |   0.0 |  0.71
+Pair    | 7.3213e-05 | 7.3213e-05 | 7.3213e-05 |   0.0 |  0.66
+Bond    | 7.786e-06  | 7.786e-06  | 7.786e-06  |   0.0 |  0.07
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.00071572 | 0.00071572 | 0.00071572 |   0.0 |  3.67
-Output  | 0.016009   | 0.016009   | 0.016009   |   0.0 | 82.05
-Modify  | 0.0012951  | 0.0012951  | 0.0012951  |   0.0 |  6.64
-Other   |            | 0.0006778  |            |       |  3.47
+Comm    | 5.6304e-05 | 5.6304e-05 | 5.6304e-05 |   0.0 |  0.50
+Output  | 0.010892   | 0.010892   | 0.010892   |   0.0 | 97.47
+Modify  | 0.00010838 | 0.00010838 | 0.00010838 |   0.0 |  0.97
+Other   |            | 3.71e-05   |            |       |  0.33
 
-Nlocal:             19 ave          19 max          19 min
+Nlocal:             50 ave          50 max          50 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
-Nghost:              1 ave           1 max           1 min
+Nghost:             11 ave          11 max          11 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
-Neighs:              0 ave           0 max           0 min
+Neighs:              3 ave           3 max           3 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
 
-Total # of neighbors = 0
-Ave neighs/atom = 0
+Total # of neighbors = 3
+Ave neighs/atom = 0.06
 Ave special neighs/atom = 0
 Neighbor list builds = 0
 Dangerous builds = 0
