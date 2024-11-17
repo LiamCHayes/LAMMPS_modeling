@@ -1,0 +1,5 @@
+create_bonds single/bond 9 49 50
+create_bonds single/bond 9 50 51
+create_bonds single/bond 9 51 52
+create_bonds single/bond 9 52 53
+create_bonds single/bond 9 53 54

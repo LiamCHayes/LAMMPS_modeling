@@ -8,17 +8,19 @@ timestep = 5 * 10 ** -7
 # Rods
 beam_length = 0.05
 beam_stiffness = 10 ** 5
-beam_thickness = 0.03
+beam_thickness = 0.05
 density = 0.01
 
-beam_type, bond_type, angle_type = sim.add_beam(6, np.array([0, 0, -beam_length/2]),np.array([0, 0, beam_length/2]), beam_thickness, beam_stiffness, density)
+xy = np.linspace(-0.4, 0.4, num=5)
+for i in xy:
+    beam_type, bond_type, angle_type = sim.add_beam(6, np.array([i, i, -beam_length/2]),np.array([0, 0, beam_length/2]), beam_thickness, beam_stiffness, density)
 
 # Potential
 E_grains = 10**6
-sim.turn_on_granular_potential(beam_type, beam_type, E_grains)
+sim.turn_on_granular_potential(youngs_modulus=E_grains)
 
 # Move things
-sim.perturb(beam_type, xdir=0.001, ydir=0.001)
+#sim.perturb(beam_type, xdir=0.001, ydir=0.001)
 
 # Output
 sim.custom("dump DUMPFILE all xyz 100 dump.xyz")

@@ -25,12 +25,44 @@ neigh_modify page 500000 one 50000
 
 
 include beam_1.txt 
-set type 1 diameter 0.03
+set type 1 diameter 0.05
 set type 1 density 0.01
-bond_coeff 1 4500.0 0.01
+bond_coeff 1 1100.5636329070296 0.11357816691600549
 include bonds_1.txt
-angle_coeff 1 0.6749999999999999
+angle_coeff 1 0.4585681803779291
 include angles_1.txt
+
+include beam_2.txt 
+set type 2 diameter 0.05
+set type 2 density 0.01
+bond_coeff 2 2175.9706994462226 0.057445626465380296
+include bonds_2.txt
+angle_coeff 2 0.9066544581025932
+include angles_2.txt
+
+include beam_3.txt 
+set type 3 diameter 0.05
+set type 3 density 0.01
+bond_coeff 3 12500.0 0.01
+include bonds_3.txt
+angle_coeff 3 5.208333333333335
+include angles_3.txt
+
+include beam_4.txt 
+set type 4 diameter 0.05
+set type 4 density 0.01
+bond_coeff 4 2175.9706994462226 0.0574456264653803
+include bonds_4.txt
+angle_coeff 4 0.9066544581025929
+include angles_4.txt
+
+include beam_5.txt 
+set type 5 diameter 0.05
+set type 5 density 0.01
+bond_coeff 5 1100.5636329070296 0.11357816691600549
+include bonds_5.txt
+angle_coeff 5 0.4585681803779291
+include angles_5.txt
 pair_coeff * * granular hertz/material 1000000 0 0.5 tangential linear_nohistory 0 0
 dump DUMPFILE all xyz 100 dump.xyz
 

@@ -37,23 +37,23 @@ neigh_modify page 500000 one 50000
 
 
 include beam_1.txt
-create_atoms 1 single 0.0 0.0 -0.025
+create_atoms 1 single -0.4 -0.4 -0.025
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.32 -0.32 -0.015000000000000001
+Created 0 atoms
+  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
+  create_atoms CPU = 0.000 seconds
+create_atoms 1 single -0.24000000000000002 -0.24000000000000002 -0.005000000000000001
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 -0.015000000000000001
+create_atoms 1 single -0.15999999999999998 -0.15999999999999998 0.0050000000000000044
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.001 seconds
-create_atoms 1 single 0.0 0.0 -0.005000000000000001
-Created 1 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.0050000000000000044
-Created 1 atoms
-  using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
-  create_atoms CPU = 0.000 seconds
-create_atoms 1 single 0.0 0.0 0.015
+create_atoms 1 single -0.08000000000000002 -0.08000000000000002 0.015
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
@@ -61,13 +61,13 @@ create_atoms 1 single 0.0 0.0 0.025
 Created 1 atoms
   using lattice units in orthogonal box = (-0.25 -0.25 -0.1) to (0.25 0.25 0.1)
   create_atoms CPU = 0.000 seconds
-set type 1 diameter 0.03
+set type 1 diameter 0.05
 Setting atom values ...
-  6 settings made for diameter
+  4 settings made for diameter
 set type 1 density 0.01
 Setting atom values ...
-  6 settings made for density
-bond_coeff 1 4500.0 0.01
+  4 settings made for density
+bond_coeff 1 1100.5636329070296 0.11357816691600549
 include bonds_1.txt
 create_bonds single/bond 1 1 2
 Finding 1-2 1-3 1-4 neighbors ...
@@ -98,100 +98,5 @@ Finding 1-2 1-3 1-4 neighbors ...
      2 = max # of special neighbors
   special bonds CPU = 0.000 seconds
 create_bonds single/bond 1 5 6
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-angle_coeff 1 0.6749999999999999
-include angles_1.txt
-create_bonds single/angle 1 1 2 3
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 2 3 4
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 3 4 5
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-create_bonds single/angle 1 4 5 6
-Finding 1-2 1-3 1-4 neighbors ...
-  special bond factors lj:    0        1        1       
-  special bond factors coul:  0        1        1       
-     2 = max # of 1-2 neighbors
-     2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
-pair_coeff * * granular hertz/material 1000000 0 0.5 tangential linear_nohistory 0 0
-dump DUMPFILE all xyz 100 dump.xyz
-
-compute bendingE all pe/atom angle
-compute stretchingE all pe/atom bond
-dump pump all custom 1 out*.dump id type radius x y z fx fy fz c_bendingE c_stretchingE
-dump_modify pump pad 11
-
-timestep 5e-07
-dump_modify pump every 100000
-run 2000000
-Generated 0 of 4950 mixed pair_coeff terms from geometric mixing rule
-Neighbor list info ...
-  update: every = 1 steps, delay = 0 steps, check = yes
-  max neighbors/atom: 50000, page size: 500000
-  master list distance cutoff = 0.031
-  ghost atom cutoff = 0.031
-  binsize = 0.0155, bins = 33 33 13
-  2 neighbor lists, perpetual/occasional/extra = 2 0 0
-  (1) pair granular, perpetual
-      attributes: half, newton on, size
-      pair build: half/size/bin/newton
-      stencil: half/bin/3d
-      bin: standard
-  (2) pair lj/cut, perpetual
-      attributes: half, newton on
-      pair build: half/bin/newton
-      stencil: half/bin/3d
-      bin: standard
-Per MPI rank memory allocation (min/avg/max) = 47.58 | 47.58 | 47.58 Mbytes
-   Step          Temp          E_pair         E_mol          TotEng         Press     
-         0   0              0              2.572922e-31   2.572922e-31   41.056019    
-   2000000   7.0175726e+21  0              0.14549304     0.87215412     24.249006    
-Loop time of 35.671 on 1 procs for 2000000 steps with 6 atoms
-
-98.6% CPU use with 1 MPI tasks x 1 OpenMP threads
-
-MPI task timing breakdown:
-Section |  min time  |  avg time  |  max time  |%varavg| %total
----------------------------------------------------------------
-Pair    | 0.94746    | 0.94746    | 0.94746    |   0.0 |  2.66
-Bond    | 0.45278    | 0.45278    | 0.45278    |   0.0 |  1.27
-Neigh   | 31.024     | 31.024     | 31.024     |   0.0 | 86.97
-Comm    | 0.79101    | 0.79101    | 0.79101    |   0.0 |  2.22
-Output  | 0.12443    | 0.12443    | 0.12443    |   0.0 |  0.35
-Modify  | 0.39673    | 0.39673    | 0.39673    |   0.0 |  1.11
-Other   |            | 1.934      |            |       |  5.42
-
-Nlocal:              6 ave           6 max           6 min
-Histogram: 1 0 0 0 0 0 0 0 0 0
-Nghost:              0 ave           0 max           0 min
-Histogram: 1 0 0 0 0 0 0 0 0 0
-Neighs:              4 ave           4 max           4 min
-Histogram: 1 0 0 0 0 0 0 0 0 0
-
-Total # of neighbors = 4
-Ave neighs/atom = 0.66666667
-Ave special neighs/atom = 1.6666667
-Neighbor list builds = 1906831
-Dangerous builds = 1820018
-Total wall time: 0:00:35
+ERROR: Create_bonds single/bond atoms do not exist (src/create_bonds.cpp:339)
+Last command: create_bonds single/bond 1 5 6
