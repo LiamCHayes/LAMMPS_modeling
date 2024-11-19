@@ -37,11 +37,11 @@ if __name__ == "__main__":
         beam, _, _ = sim.add_beam(n_particles_per_beam, np.array([bp,0,-beam_length/2]),np.array([bp,0,beam_length/2]),beam_thickness,E_beams,density)
         sim.turn_on_granular_potential(type1 = beam, type2 = beam, youngs_modulus = 0)
 
-    # Clamp the clamp particles. Here we also clamp them in x and y, but this can be changed.
+    """# Clamp the clamp particles. Here we also clamp them in x and y, but this can be changed.
     bottom_clamp = [i for i in range(1,n_beams*n_particles_per_beam+1) if i%n_particles_per_beam in [1,2]]
     top_clamp = [i for i in range(1,n_beams*n_particles_per_beam+1) if i%n_particles_per_beam in [n_particles_per_beam-1,0]]
     sim.move(particles = bottom_clamp, xvel = 0, yvel = 0, zvel = squish_factor * beam_length / simtime)
-    sim.move(particles = top_clamp, xvel = 0, yvel = 0, zvel = - squish_factor * beam_length / simtime)
+    sim.move(particles = top_clamp, xvel = 0, yvel = 0, zvel = - squish_factor * beam_length / simtime)"""
 
     # Perturb the beams to buckle to the left or right randomly
     dirs = np.random.rand(len(beam_positions),1)
