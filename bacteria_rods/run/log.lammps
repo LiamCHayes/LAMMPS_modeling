@@ -682,7 +682,7 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bond factors coul:  0        1        1       
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
+  special bonds CPU = 0.004 seconds
 create_bonds single/bond 1 6 7
 Finding 1-2 1-3 1-4 neighbors ...
   special bond factors lj:    0        1        1       
@@ -1930,7 +1930,7 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bond factors coul:  0        1        1       
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
-  special bonds CPU = 0.018 seconds
+  special bonds CPU = 0.000 seconds
 create_bonds single/angle 1 35 36 37
 Finding 1-2 1-3 1-4 neighbors ...
   special bond factors lj:    0        1        1       
@@ -2147,7 +2147,7 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bond factors coul:  0        1        1       
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
-  special bonds CPU = 0.004 seconds
+  special bonds CPU = 0.000 seconds
 create_bonds single/angle 1 66 67 68
 Finding 1-2 1-3 1-4 neighbors ...
   special bond factors lj:    0        1        1       
@@ -4095,7 +4095,7 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bond factors coul:  0        1        1       
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
-  special bonds CPU = 0.000 seconds
+  special bonds CPU = 0.005 seconds
 create_bonds single/bond 2 259 260
 Finding 1-2 1-3 1-4 neighbors ...
   special bond factors lj:    0        1        1       
@@ -7440,7 +7440,7 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bond factors coul:  0        1        1       
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
-  special bonds CPU = 0.009 seconds
+  special bonds CPU = 0.000 seconds
 create_bonds single/angle 3 353 354 355
 Finding 1-2 1-3 1-4 neighbors ...
   special bond factors lj:    0        1        1       
@@ -11223,7 +11223,7 @@ Created 1 atoms
 create_atoms 5 single -0.0024999999999999988 0.0 0.01817114093959732
 Created 1 atoms
   using lattice units in orthogonal box = (-0.025 -0.005 -0.05) to (0.025 0.005 0.05)
-  create_atoms CPU = 0.007 seconds
+  create_atoms CPU = 0.000 seconds
 create_atoms 5 single -0.0024999999999999988 0.0 0.018808724832214768
 Created 1 atoms
   using lattice units in orthogonal box = (-0.025 -0.005 -0.05) to (0.025 0.005 0.05)
@@ -26959,20 +26959,12 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bonds CPU = 0.000 seconds
 pair_coeff 10 10 granular hertz/material 0 0 0.5 tangential linear_nohistory 0 0
 
-group group_move_1 id 1 2 151 152 301 302 451 452 601 602 751 752 901 902 1051 1052 1201 1202 1351 1352
-20 atoms in group group_move_1
-fix fix_move_1 group_move_1 move linear 0 0 0.019000000000000003
-
-group group_move_2 id 149 150 299 300 449 450 599 600 749 750 899 900 1049 1050 1199 1200 1349 1350 1499 1500
-20 atoms in group group_move_2
-fix fix_move_2 group_move_2 move linear 0 0 -0.019000000000000003
-
-group group_perturb_1 type 1 3 4 6 10
-750 atoms in group group_perturb_1
+group group_perturb_1 type 1 2 6 8
+600 atoms in group group_perturb_1
 fix fix_perturb_1 group_perturb_1 gravity 1e-05 vector 1 0 0
 
-group group_perturb_2 type 2 5 7 8 9
-750 atoms in group group_perturb_2
+group group_perturb_2 type 3 4 5 7 9 10
+900 atoms in group group_perturb_2
 fix fix_perturb_2 group_perturb_2 gravity 1e-05 vector -1 0 0
 
 fix fix_viscosity_1 all viscous 2e-07
@@ -26986,7 +26978,6 @@ timestep 1e-07
 dump_modify pump every 100000
 run 10000000
 Generated 0 of 4950 mixed pair_coeff terms from geometric mixing rule
-WARNING: One or more atoms are time integrated more than once (src/modify.cpp:296)
 Neighbor list info ...
   update: every = 1 steps, delay = 0 steps, check = yes
   max neighbors/atom: 50000, page size: 500000
@@ -27004,35 +26995,35 @@ Neighbor list info ...
       pair build: half/bin/newton
       stencil: half/bin/3d
       bin: standard
-Per MPI rank memory allocation (min/avg/max) = 48.41 | 48.41 | 48.41 Mbytes
+Per MPI rank memory allocation (min/avg/max) = 47.66 | 47.66 | 47.66 Mbytes
    Step          Temp          E_pair         E_mol          TotEng         Press     
          0   0              0              1.4800417e-28  1.4800417e-28 -2.5214109e-12
-  10000000   6.2039232e+13  0              0.0049436811   0.004945607    83.260649    
-Loop time of 4836.77 on 1 procs for 10000000 steps with 1500 atoms
+  10000000   0.55490996     0              9.0056621e-25  1.7227483e-20  1.2730388e-10
+Loop time of 3124.16 on 1 procs for 10000000 steps with 1500 atoms
 
 99.8% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 3632.3     | 3632.3     | 3632.3     |   0.0 | 75.10
-Bond    | 626.27     | 626.27     | 626.27     |   0.0 | 12.95
-Neigh   | 0.48764    | 0.48764    | 0.48764    |   0.0 |  0.01
-Comm    | 1.0587     | 1.0587     | 1.0587     |   0.0 |  0.02
-Output  | 0.82218    | 0.82218    | 0.82218    |   0.0 |  0.02
-Modify  | 541.98     | 541.98     | 541.98     |   0.0 | 11.21
-Other   |            | 33.82      |            |       |  0.70
+Pair    | 2027.3     | 2027.3     | 2027.3     |   0.0 | 64.89
+Bond    | 581.67     | 581.67     | 581.67     |   0.0 | 18.62
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0.81044    | 0.81044    | 0.81044    |   0.0 |  0.03
+Output  | 1.8782     | 1.8782     | 1.8782     |   0.0 |  0.06
+Modify  | 479.28     | 479.28     | 479.28     |   0.0 | 15.34
+Other   |            | 33.24      |            |       |  1.06
 
 Nlocal:           1500 ave        1500 max        1500 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
 Nghost:              0 ave           0 max           0 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
-Neighs:          11878 ave       11878 max       11878 min
+Neighs:           4410 ave        4410 max        4410 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
 
-Total # of neighbors = 11878
-Ave neighs/atom = 7.9186667
+Total # of neighbors = 4410
+Ave neighs/atom = 2.94
 Ave special neighs/atom = 1.9866667
-Neighbor list builds = 596
+Neighbor list builds = 0
 Dangerous builds = 0
-Total wall time: 1:20:37
+Total wall time: 0:52:04
