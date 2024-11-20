@@ -8,9 +8,9 @@ if __name__ == "__main__":
     # To use this file, enter the filename that you want the sim in in the command line python call, like "python confined_d_cone.py [filename]"
     simname = str(sys.argv[1])
 
-    n_beams = 10
+    n_beams = 50
     d_between_beams = 0.005
-    beam_length = 0.095
+    beam_length = 0.005
     beam_thickness = 0.002
     n_particles_per_beam = 150
     squish_factor = 0.2
