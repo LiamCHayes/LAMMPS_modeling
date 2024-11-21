@@ -1,4 +1,9 @@
-create_bonds single/bond 34 166 167
-create_bonds single/bond 34 167 168
-create_bonds single/bond 34 168 169
-create_bonds single/bond 34 169 170
+create_bonds single/bond 34 331 332
+create_bonds single/bond 34 332 333
+create_bonds single/bond 34 333 334
+create_bonds single/bond 34 334 335
+create_bonds single/bond 34 335 336
+create_bonds single/bond 34 336 337
+create_bonds single/bond 34 337 338
+create_bonds single/bond 34 338 339
+create_bonds single/bond 34 339 340
