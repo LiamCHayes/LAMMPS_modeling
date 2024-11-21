@@ -1,0 +1,4 @@
+create_bonds single/bond 43 211 212
+create_bonds single/bond 43 212 213
+create_bonds single/bond 43 213 214
+create_bonds single/bond 43 214 215

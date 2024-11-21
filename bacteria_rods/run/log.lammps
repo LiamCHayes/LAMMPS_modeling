@@ -37,23 +37,23 @@ neigh_modify page 500000 one 50000
 
 
 include beam_1.txt
-create_atoms 1 single -0.04 0.0 -0.0035
+create_atoms 1 single -0.04 0.0 -0.043500000000000004
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.04 0.0 -0.00175
+create_atoms 1 single -0.04 0.0 -0.04175
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.001 seconds
-create_atoms 1 single -0.04 0.0 0.0
+create_atoms 1 single -0.04 0.0 -0.04
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.04 0.0 0.0017500000000000003
+create_atoms 1 single -0.04 0.0 -0.03825
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 1 single -0.04 0.0 0.0035
+create_atoms 1 single -0.04 0.0 -0.0365
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -63,7 +63,7 @@ Setting atom values ...
 set type 1 density 0.01
 Setting atom values ...
   5 settings made for density
-bond_coeff 1 257.1428571428571 0.00175
+bond_coeff 1 257.14285714285694 0.0017500000000000016
 include bonds_1.txt
 create_bonds single/bond 1 1 2
 Finding 1-2 1-3 1-4 neighbors ...
@@ -93,7 +93,7 @@ Finding 1-2 1-3 1-4 neighbors ...
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
   special bonds CPU = 0.000 seconds
-angle_coeff 1 0.0003857142857142857
+angle_coeff 1 0.0003857142857142854
 include angles_1.txt
 create_bonds single/angle 1 1 2 3
 Finding 1-2 1-3 1-4 neighbors ...
@@ -118,23 +118,23 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bonds CPU = 0.000 seconds
 
 include beam_2.txt
-create_atoms 2 single -0.03111111111111111 0.0 -0.0035
+create_atoms 2 single -0.04 0.0 -0.0235
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 2 single -0.03111111111111111 0.0 -0.00175
+create_atoms 2 single -0.04 0.0 -0.02175
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 2 single -0.03111111111111111 0.0 0.0
+create_atoms 2 single -0.04 0.0 -0.02
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 2 single -0.03111111111111111 0.0 0.0017500000000000003
+create_atoms 2 single -0.04 0.0 -0.018250000000000002
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 2 single -0.03111111111111111 0.0 0.0035
+create_atoms 2 single -0.04 0.0 -0.0165
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -144,7 +144,7 @@ Setting atom values ...
 set type 2 density 0.01
 Setting atom values ...
   5 settings made for density
-bond_coeff 2 257.1428571428571 0.00175
+bond_coeff 2 257.14285714285717 0.0017499999999999998
 include bonds_2.txt
 create_bonds single/bond 2 6 7
 Finding 1-2 1-3 1-4 neighbors ...
@@ -199,23 +199,23 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bonds CPU = 0.000 seconds
 
 include beam_3.txt
-create_atoms 3 single -0.022222222222222223 0.0 -0.0035
+create_atoms 3 single -0.04 0.0 -0.0035
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 3 single -0.022222222222222223 0.0 -0.00175
+create_atoms 3 single -0.04 0.0 -0.00175
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 3 single -0.022222222222222223 0.0 0.0
+create_atoms 3 single -0.04 0.0 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 3 single -0.022222222222222223 0.0 0.0017500000000000003
+create_atoms 3 single -0.04 0.0 0.0017500000000000003
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 3 single -0.022222222222222223 0.0 0.0035
+create_atoms 3 single -0.04 0.0 0.0035
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -280,23 +280,23 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bonds CPU = 0.000 seconds
 
 include beam_4.txt
-create_atoms 4 single -0.013333333333333336 0.0 -0.0035
+create_atoms 4 single -0.04 0.0 0.016499999999999997
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 4 single -0.013333333333333336 0.0 -0.00175
+create_atoms 4 single -0.04 0.0 0.018249999999999995
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 4 single -0.013333333333333336 0.0 0.0
+create_atoms 4 single -0.04 0.0 0.019999999999999997
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 4 single -0.013333333333333336 0.0 0.0017500000000000003
+create_atoms 4 single -0.04 0.0 0.02175
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 4 single -0.013333333333333336 0.0 0.0035
+create_atoms 4 single -0.04 0.0 0.023499999999999997
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -306,7 +306,7 @@ Setting atom values ...
 set type 4 density 0.01
 Setting atom values ...
   5 settings made for density
-bond_coeff 4 257.1428571428571 0.00175
+bond_coeff 4 257.14285714285717 0.0017499999999999998
 include bonds_4.txt
 create_bonds single/bond 4 16 17
 Finding 1-2 1-3 1-4 neighbors ...
@@ -361,23 +361,23 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bonds CPU = 0.000 seconds
 
 include beam_5.txt
-create_atoms 5 single -0.004444444444444445 0.0 -0.0035
+create_atoms 5 single -0.04 0.0 0.0365
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 5 single -0.004444444444444445 0.0 -0.00175
+create_atoms 5 single -0.04 0.0 0.03825
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 5 single -0.004444444444444445 0.0 0.0
+create_atoms 5 single -0.04 0.0 0.04
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 5 single -0.004444444444444445 0.0 0.0017500000000000003
+create_atoms 5 single -0.04 0.0 0.04175
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 5 single -0.004444444444444445 0.0 0.0035
+create_atoms 5 single -0.04 0.0 0.043500000000000004
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -387,7 +387,7 @@ Setting atom values ...
 set type 5 density 0.01
 Setting atom values ...
   5 settings made for density
-bond_coeff 5 257.1428571428571 0.00175
+bond_coeff 5 257.14285714285694 0.0017500000000000016
 include bonds_5.txt
 create_bonds single/bond 5 21 22
 Finding 1-2 1-3 1-4 neighbors ...
@@ -417,7 +417,7 @@ Finding 1-2 1-3 1-4 neighbors ...
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
   special bonds CPU = 0.000 seconds
-angle_coeff 5 0.0003857142857142857
+angle_coeff 5 0.0003857142857142854
 include angles_5.txt
 create_bonds single/angle 5 21 22 23
 Finding 1-2 1-3 1-4 neighbors ...
@@ -442,23 +442,23 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bonds CPU = 0.000 seconds
 
 include beam_6.txt
-create_atoms 6 single 0.004444444444444445 0.0 -0.0035
+create_atoms 6 single -0.03111111111111111 0.0 -0.043500000000000004
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 6 single 0.004444444444444445 0.0 -0.00175
+create_atoms 6 single -0.03111111111111111 0.0 -0.04175
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 6 single 0.004444444444444445 0.0 0.0
+create_atoms 6 single -0.03111111111111111 0.0 -0.04
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 6 single 0.004444444444444445 0.0 0.0017500000000000003
+create_atoms 6 single -0.03111111111111111 0.0 -0.03825
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 6 single 0.004444444444444445 0.0 0.0035
+create_atoms 6 single -0.03111111111111111 0.0 -0.0365
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -468,7 +468,7 @@ Setting atom values ...
 set type 6 density 0.01
 Setting atom values ...
   5 settings made for density
-bond_coeff 6 257.1428571428571 0.00175
+bond_coeff 6 257.14285714285694 0.0017500000000000016
 include bonds_6.txt
 create_bonds single/bond 6 26 27
 Finding 1-2 1-3 1-4 neighbors ...
@@ -498,7 +498,7 @@ Finding 1-2 1-3 1-4 neighbors ...
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
   special bonds CPU = 0.000 seconds
-angle_coeff 6 0.0003857142857142857
+angle_coeff 6 0.0003857142857142854
 include angles_6.txt
 create_bonds single/angle 6 26 27 28
 Finding 1-2 1-3 1-4 neighbors ...
@@ -523,23 +523,23 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bonds CPU = 0.000 seconds
 
 include beam_7.txt
-create_atoms 7 single 0.013333333333333329 0.0 -0.0035
+create_atoms 7 single -0.03111111111111111 0.0 -0.0235
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 7 single 0.013333333333333329 0.0 -0.00175
+create_atoms 7 single -0.03111111111111111 0.0 -0.02175
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 7 single 0.013333333333333329 0.0 0.0
+create_atoms 7 single -0.03111111111111111 0.0 -0.02
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 7 single 0.013333333333333329 0.0 0.0017500000000000003
+create_atoms 7 single -0.03111111111111111 0.0 -0.018250000000000002
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 7 single 0.013333333333333329 0.0 0.0035
+create_atoms 7 single -0.03111111111111111 0.0 -0.0165
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -549,7 +549,7 @@ Setting atom values ...
 set type 7 density 0.01
 Setting atom values ...
   5 settings made for density
-bond_coeff 7 257.1428571428571 0.00175
+bond_coeff 7 257.14285714285717 0.0017499999999999998
 include bonds_7.txt
 create_bonds single/bond 7 31 32
 Finding 1-2 1-3 1-4 neighbors ...
@@ -604,23 +604,23 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bonds CPU = 0.000 seconds
 
 include beam_8.txt
-create_atoms 8 single 0.02222222222222222 0.0 -0.0035
+create_atoms 8 single -0.03111111111111111 0.0 -0.0035
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 8 single 0.02222222222222222 0.0 -0.00175
+create_atoms 8 single -0.03111111111111111 0.0 -0.00175
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 8 single 0.02222222222222222 0.0 0.0
+create_atoms 8 single -0.03111111111111111 0.0 0.0
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 8 single 0.02222222222222222 0.0 0.0017500000000000003
+create_atoms 8 single -0.03111111111111111 0.0 0.0017500000000000003
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 8 single 0.02222222222222222 0.0 0.0035
+create_atoms 8 single -0.03111111111111111 0.0 0.0035
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -685,23 +685,23 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bonds CPU = 0.000 seconds
 
 include beam_9.txt
-create_atoms 9 single 0.03111111111111111 0.0 -0.0035
+create_atoms 9 single -0.03111111111111111 0.0 0.016499999999999997
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 9 single 0.03111111111111111 0.0 -0.00175
+create_atoms 9 single -0.03111111111111111 0.0 0.018249999999999995
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 9 single 0.03111111111111111 0.0 0.0
+create_atoms 9 single -0.03111111111111111 0.0 0.019999999999999997
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 9 single 0.03111111111111111 0.0 0.0017500000000000003
+create_atoms 9 single -0.03111111111111111 0.0 0.02175
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 9 single 0.03111111111111111 0.0 0.0035
+create_atoms 9 single -0.03111111111111111 0.0 0.023499999999999997
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -711,7 +711,7 @@ Setting atom values ...
 set type 9 density 0.01
 Setting atom values ...
   5 settings made for density
-bond_coeff 9 257.1428571428571 0.00175
+bond_coeff 9 257.14285714285717 0.0017499999999999998
 include bonds_9.txt
 create_bonds single/bond 9 41 42
 Finding 1-2 1-3 1-4 neighbors ...
@@ -766,23 +766,23 @@ Finding 1-2 1-3 1-4 neighbors ...
   special bonds CPU = 0.000 seconds
 
 include beam_10.txt
-create_atoms 10 single 0.04 0.0 -0.0035
+create_atoms 10 single -0.03111111111111111 0.0 0.0365
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 10 single 0.04 0.0 -0.00175
+create_atoms 10 single -0.03111111111111111 0.0 0.03825
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 10 single 0.04 0.0 0.0
+create_atoms 10 single -0.03111111111111111 0.0 0.04
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 10 single 0.04 0.0 0.0017500000000000003
+create_atoms 10 single -0.03111111111111111 0.0 0.04175
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
-create_atoms 10 single 0.04 0.0 0.0035
+create_atoms 10 single -0.03111111111111111 0.0 0.043500000000000004
 Created 1 atoms
   using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
   create_atoms CPU = 0.000 seconds
@@ -792,7 +792,7 @@ Setting atom values ...
 set type 10 density 0.01
 Setting atom values ...
   5 settings made for density
-bond_coeff 10 257.1428571428571 0.00175
+bond_coeff 10 257.14285714285694 0.0017500000000000016
 include bonds_10.txt
 create_bonds single/bond 10 46 47
 Finding 1-2 1-3 1-4 neighbors ...
@@ -822,7 +822,7 @@ Finding 1-2 1-3 1-4 neighbors ...
      2 = max # of 1-2 neighbors
      2 = max # of special neighbors
   special bonds CPU = 0.000 seconds
-angle_coeff 10 0.0003857142857142857
+angle_coeff 10 0.0003857142857142854
 include angles_10.txt
 create_bonds single/angle 10 46 47 48
 Finding 1-2 1-3 1-4 neighbors ...
@@ -846,36 +846,3192 @@ Finding 1-2 1-3 1-4 neighbors ...
      2 = max # of special neighbors
   special bonds CPU = 0.000 seconds
 
-fix fix_viscosity_1 all viscous 1e-06
+include beam_11.txt
+create_atoms 11 single -0.022222222222222223 0.0 -0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 11 single -0.022222222222222223 0.0 -0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 11 single -0.022222222222222223 0.0 -0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 11 single -0.022222222222222223 0.0 -0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 11 single -0.022222222222222223 0.0 -0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 11 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 11 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 11 257.14285714285694 0.0017500000000000016
+include bonds_11.txt
+create_bonds single/bond 11 51 52
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 11 52 53
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 11 53 54
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 11 54 55
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 11 0.0003857142857142854
+include angles_11.txt
+create_bonds single/angle 11 51 52 53
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 11 52 53 54
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 11 53 54 55
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
 
-compute bendingE all pe/atom angle
-compute stretchingE all pe/atom bond
-dump pump all custom 1 out*.dump id type radius x y z fx fy fz c_bendingE c_stretchingE
-dump_modify pump pad 11
+include beam_12.txt
+create_atoms 12 single -0.022222222222222223 0.0 -0.0235
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 12 single -0.022222222222222223 0.0 -0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 12 single -0.022222222222222223 0.0 -0.02
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 12 single -0.022222222222222223 0.0 -0.018250000000000002
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 12 single -0.022222222222222223 0.0 -0.0165
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 12 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 12 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 12 257.14285714285717 0.0017499999999999998
+include bonds_12.txt
+create_bonds single/bond 12 56 57
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 12 57 58
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 12 58 59
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 12 59 60
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 12 0.0003857142857142857
+include angles_12.txt
+create_bonds single/angle 12 56 57 58
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 12 57 58 59
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 12 58 59 60
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
 
-timestep 3.7073532148225835e-06
-dump_modify pump every 13487
-run 269734
-Generated 0 of 4950 mixed pair_coeff terms from geometric mixing rule
-Neighbor list info ...
-  update: every = 1 steps, delay = 0 steps, check = yes
-  max neighbors/atom: 50000, page size: 500000
-  master list distance cutoff = 0.004
-  ghost atom cutoff = 0.004
-  binsize = 0.002, bins = 50 15 50
-  2 neighbor lists, perpetual/occasional/extra = 2 0 0
-  (1) pair granular, perpetual
-      attributes: half, newton on, size
-      pair build: half/size/bin/newton
-      stencil: half/bin/3d
-      bin: standard
-  (2) pair lj/cut, perpetual
-      attributes: half, newton on
-      pair build: half/bin/newton
-      stencil: half/bin/3d
-      bin: standard
-Per MPI rank memory allocation (min/avg/max) = 47.77 | 47.77 | 47.77 Mbytes
-   Step          Temp          E_pair         E_mol          TotEng         Press     
-         0   0              0              2.4181598e-34  2.4181598e-34 -5.3969175e-16
-ERROR: Lost atoms: original 50 current 0 (src/thermo.cpp:494)
-Last command: run 269734
+include beam_13.txt
+create_atoms 13 single -0.022222222222222223 0.0 -0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 13 single -0.022222222222222223 0.0 -0.00175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 13 single -0.022222222222222223 0.0 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 13 single -0.022222222222222223 0.0 0.0017500000000000003
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 13 single -0.022222222222222223 0.0 0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 13 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 13 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 13 257.1428571428571 0.00175
+include bonds_13.txt
+create_bonds single/bond 13 61 62
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 13 62 63
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 13 63 64
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 13 64 65
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 13 0.0003857142857142857
+include angles_13.txt
+create_bonds single/angle 13 61 62 63
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 13 62 63 64
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 13 63 64 65
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_14.txt
+create_atoms 14 single -0.022222222222222223 0.0 0.016499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 14 single -0.022222222222222223 0.0 0.018249999999999995
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 14 single -0.022222222222222223 0.0 0.019999999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 14 single -0.022222222222222223 0.0 0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 14 single -0.022222222222222223 0.0 0.023499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 14 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 14 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 14 257.14285714285717 0.0017499999999999998
+include bonds_14.txt
+create_bonds single/bond 14 66 67
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 14 67 68
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 14 68 69
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 14 69 70
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 14 0.0003857142857142857
+include angles_14.txt
+create_bonds single/angle 14 66 67 68
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 14 67 68 69
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 14 68 69 70
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_15.txt
+create_atoms 15 single -0.022222222222222223 0.0 0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 15 single -0.022222222222222223 0.0 0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 15 single -0.022222222222222223 0.0 0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 15 single -0.022222222222222223 0.0 0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 15 single -0.022222222222222223 0.0 0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 15 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 15 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 15 257.14285714285694 0.0017500000000000016
+include bonds_15.txt
+create_bonds single/bond 15 71 72
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 15 72 73
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 15 73 74
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 15 74 75
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 15 0.0003857142857142854
+include angles_15.txt
+create_bonds single/angle 15 71 72 73
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 15 72 73 74
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 15 73 74 75
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_16.txt
+create_atoms 16 single -0.013333333333333336 0.0 -0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 16 single -0.013333333333333336 0.0 -0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 16 single -0.013333333333333336 0.0 -0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 16 single -0.013333333333333336 0.0 -0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 16 single -0.013333333333333336 0.0 -0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 16 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 16 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 16 257.14285714285694 0.0017500000000000016
+include bonds_16.txt
+create_bonds single/bond 16 76 77
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 16 77 78
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 16 78 79
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 16 79 80
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 16 0.0003857142857142854
+include angles_16.txt
+create_bonds single/angle 16 76 77 78
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 16 77 78 79
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 16 78 79 80
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_17.txt
+create_atoms 17 single -0.013333333333333336 0.0 -0.0235
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 17 single -0.013333333333333336 0.0 -0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 17 single -0.013333333333333336 0.0 -0.02
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 17 single -0.013333333333333336 0.0 -0.018250000000000002
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 17 single -0.013333333333333336 0.0 -0.0165
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 17 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 17 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 17 257.14285714285717 0.0017499999999999998
+include bonds_17.txt
+create_bonds single/bond 17 81 82
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 17 82 83
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 17 83 84
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 17 84 85
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 17 0.0003857142857142857
+include angles_17.txt
+create_bonds single/angle 17 81 82 83
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 17 82 83 84
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 17 83 84 85
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_18.txt
+create_atoms 18 single -0.013333333333333336 0.0 -0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 18 single -0.013333333333333336 0.0 -0.00175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 18 single -0.013333333333333336 0.0 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 18 single -0.013333333333333336 0.0 0.0017500000000000003
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 18 single -0.013333333333333336 0.0 0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 18 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 18 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 18 257.1428571428571 0.00175
+include bonds_18.txt
+create_bonds single/bond 18 86 87
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 18 87 88
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 18 88 89
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 18 89 90
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 18 0.0003857142857142857
+include angles_18.txt
+create_bonds single/angle 18 86 87 88
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 18 87 88 89
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 18 88 89 90
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_19.txt
+create_atoms 19 single -0.013333333333333336 0.0 0.016499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 19 single -0.013333333333333336 0.0 0.018249999999999995
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 19 single -0.013333333333333336 0.0 0.019999999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 19 single -0.013333333333333336 0.0 0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 19 single -0.013333333333333336 0.0 0.023499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 19 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 19 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 19 257.14285714285717 0.0017499999999999998
+include bonds_19.txt
+create_bonds single/bond 19 91 92
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 19 92 93
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 19 93 94
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 19 94 95
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 19 0.0003857142857142857
+include angles_19.txt
+create_bonds single/angle 19 91 92 93
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 19 92 93 94
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 19 93 94 95
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_20.txt
+create_atoms 20 single -0.013333333333333336 0.0 0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 20 single -0.013333333333333336 0.0 0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 20 single -0.013333333333333336 0.0 0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 20 single -0.013333333333333336 0.0 0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 20 single -0.013333333333333336 0.0 0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 20 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 20 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 20 257.14285714285694 0.0017500000000000016
+include bonds_20.txt
+create_bonds single/bond 20 96 97
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 20 97 98
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 20 98 99
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 20 99 100
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 20 0.0003857142857142854
+include angles_20.txt
+create_bonds single/angle 20 96 97 98
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 20 97 98 99
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 20 98 99 100
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_21.txt
+create_atoms 21 single -0.004444444444444445 0.0 -0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 21 single -0.004444444444444445 0.0 -0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 21 single -0.004444444444444445 0.0 -0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 21 single -0.004444444444444445 0.0 -0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 21 single -0.004444444444444445 0.0 -0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 21 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 21 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 21 257.14285714285694 0.0017500000000000016
+include bonds_21.txt
+create_bonds single/bond 21 101 102
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 21 102 103
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 21 103 104
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 21 104 105
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 21 0.0003857142857142854
+include angles_21.txt
+create_bonds single/angle 21 101 102 103
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 21 102 103 104
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 21 103 104 105
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_22.txt
+create_atoms 22 single -0.004444444444444445 0.0 -0.0235
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 22 single -0.004444444444444445 0.0 -0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 22 single -0.004444444444444445 0.0 -0.02
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 22 single -0.004444444444444445 0.0 -0.018250000000000002
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 22 single -0.004444444444444445 0.0 -0.0165
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 22 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 22 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 22 257.14285714285717 0.0017499999999999998
+include bonds_22.txt
+create_bonds single/bond 22 106 107
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 22 107 108
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 22 108 109
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 22 109 110
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 22 0.0003857142857142857
+include angles_22.txt
+create_bonds single/angle 22 106 107 108
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 22 107 108 109
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 22 108 109 110
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_23.txt
+create_atoms 23 single -0.004444444444444445 0.0 -0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 23 single -0.004444444444444445 0.0 -0.00175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 23 single -0.004444444444444445 0.0 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 23 single -0.004444444444444445 0.0 0.0017500000000000003
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 23 single -0.004444444444444445 0.0 0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 23 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 23 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 23 257.1428571428571 0.00175
+include bonds_23.txt
+create_bonds single/bond 23 111 112
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 23 112 113
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 23 113 114
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 23 114 115
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 23 0.0003857142857142857
+include angles_23.txt
+create_bonds single/angle 23 111 112 113
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 23 112 113 114
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 23 113 114 115
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_24.txt
+create_atoms 24 single -0.004444444444444445 0.0 0.016499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 24 single -0.004444444444444445 0.0 0.018249999999999995
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 24 single -0.004444444444444445 0.0 0.019999999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 24 single -0.004444444444444445 0.0 0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 24 single -0.004444444444444445 0.0 0.023499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 24 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 24 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 24 257.14285714285717 0.0017499999999999998
+include bonds_24.txt
+create_bonds single/bond 24 116 117
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 24 117 118
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 24 118 119
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 24 119 120
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 24 0.0003857142857142857
+include angles_24.txt
+create_bonds single/angle 24 116 117 118
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 24 117 118 119
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 24 118 119 120
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_25.txt
+create_atoms 25 single -0.004444444444444445 0.0 0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 25 single -0.004444444444444445 0.0 0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 25 single -0.004444444444444445 0.0 0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 25 single -0.004444444444444445 0.0 0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 25 single -0.004444444444444445 0.0 0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 25 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 25 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 25 257.14285714285694 0.0017500000000000016
+include bonds_25.txt
+create_bonds single/bond 25 121 122
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 25 122 123
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 25 123 124
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 25 124 125
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 25 0.0003857142857142854
+include angles_25.txt
+create_bonds single/angle 25 121 122 123
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 25 122 123 124
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 25 123 124 125
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_26.txt
+create_atoms 26 single 0.004444444444444445 0.0 -0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 26 single 0.004444444444444445 0.0 -0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 26 single 0.004444444444444445 0.0 -0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 26 single 0.004444444444444445 0.0 -0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 26 single 0.004444444444444445 0.0 -0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 26 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 26 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 26 257.14285714285694 0.0017500000000000016
+include bonds_26.txt
+create_bonds single/bond 26 126 127
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 26 127 128
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 26 128 129
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 26 129 130
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 26 0.0003857142857142854
+include angles_26.txt
+create_bonds single/angle 26 126 127 128
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 26 127 128 129
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 26 128 129 130
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_27.txt
+create_atoms 27 single 0.004444444444444445 0.0 -0.0235
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 27 single 0.004444444444444445 0.0 -0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 27 single 0.004444444444444445 0.0 -0.02
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 27 single 0.004444444444444445 0.0 -0.018250000000000002
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 27 single 0.004444444444444445 0.0 -0.0165
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 27 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 27 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 27 257.14285714285717 0.0017499999999999998
+include bonds_27.txt
+create_bonds single/bond 27 131 132
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 27 132 133
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 27 133 134
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 27 134 135
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 27 0.0003857142857142857
+include angles_27.txt
+create_bonds single/angle 27 131 132 133
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 27 132 133 134
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 27 133 134 135
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_28.txt
+create_atoms 28 single 0.004444444444444445 0.0 -0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 28 single 0.004444444444444445 0.0 -0.00175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 28 single 0.004444444444444445 0.0 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 28 single 0.004444444444444445 0.0 0.0017500000000000003
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 28 single 0.004444444444444445 0.0 0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 28 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 28 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 28 257.1428571428571 0.00175
+include bonds_28.txt
+create_bonds single/bond 28 136 137
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 28 137 138
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 28 138 139
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 28 139 140
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 28 0.0003857142857142857
+include angles_28.txt
+create_bonds single/angle 28 136 137 138
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 28 137 138 139
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 28 138 139 140
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_29.txt
+create_atoms 29 single 0.004444444444444445 0.0 0.016499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 29 single 0.004444444444444445 0.0 0.018249999999999995
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 29 single 0.004444444444444445 0.0 0.019999999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 29 single 0.004444444444444445 0.0 0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 29 single 0.004444444444444445 0.0 0.023499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 29 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 29 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 29 257.14285714285717 0.0017499999999999998
+include bonds_29.txt
+create_bonds single/bond 29 141 142
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 29 142 143
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 29 143 144
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 29 144 145
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 29 0.0003857142857142857
+include angles_29.txt
+create_bonds single/angle 29 141 142 143
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 29 142 143 144
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 29 143 144 145
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_30.txt
+create_atoms 30 single 0.004444444444444445 0.0 0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 30 single 0.004444444444444445 0.0 0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 30 single 0.004444444444444445 0.0 0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 30 single 0.004444444444444445 0.0 0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 30 single 0.004444444444444445 0.0 0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 30 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 30 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 30 257.14285714285694 0.0017500000000000016
+include bonds_30.txt
+create_bonds single/bond 30 146 147
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 30 147 148
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 30 148 149
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 30 149 150
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 30 0.0003857142857142854
+include angles_30.txt
+create_bonds single/angle 30 146 147 148
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 30 147 148 149
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 30 148 149 150
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_31.txt
+create_atoms 31 single 0.013333333333333329 0.0 -0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 31 single 0.013333333333333329 0.0 -0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 31 single 0.013333333333333329 0.0 -0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 31 single 0.013333333333333329 0.0 -0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 31 single 0.013333333333333329 0.0 -0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 31 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 31 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 31 257.14285714285694 0.0017500000000000016
+include bonds_31.txt
+create_bonds single/bond 31 151 152
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 31 152 153
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 31 153 154
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 31 154 155
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 31 0.0003857142857142854
+include angles_31.txt
+create_bonds single/angle 31 151 152 153
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 31 152 153 154
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 31 153 154 155
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_32.txt
+create_atoms 32 single 0.013333333333333329 0.0 -0.0235
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 32 single 0.013333333333333329 0.0 -0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 32 single 0.013333333333333329 0.0 -0.02
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 32 single 0.013333333333333329 0.0 -0.018250000000000002
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 32 single 0.013333333333333329 0.0 -0.0165
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 32 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 32 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 32 257.14285714285717 0.0017499999999999998
+include bonds_32.txt
+create_bonds single/bond 32 156 157
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 32 157 158
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 32 158 159
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 32 159 160
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 32 0.0003857142857142857
+include angles_32.txt
+create_bonds single/angle 32 156 157 158
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 32 157 158 159
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 32 158 159 160
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_33.txt
+create_atoms 33 single 0.013333333333333329 0.0 -0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 33 single 0.013333333333333329 0.0 -0.00175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 33 single 0.013333333333333329 0.0 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 33 single 0.013333333333333329 0.0 0.0017500000000000003
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 33 single 0.013333333333333329 0.0 0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 33 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 33 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 33 257.1428571428571 0.00175
+include bonds_33.txt
+create_bonds single/bond 33 161 162
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 33 162 163
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 33 163 164
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 33 164 165
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 33 0.0003857142857142857
+include angles_33.txt
+create_bonds single/angle 33 161 162 163
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 33 162 163 164
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 33 163 164 165
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_34.txt
+create_atoms 34 single 0.013333333333333329 0.0 0.016499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 34 single 0.013333333333333329 0.0 0.018249999999999995
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 34 single 0.013333333333333329 0.0 0.019999999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 34 single 0.013333333333333329 0.0 0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 34 single 0.013333333333333329 0.0 0.023499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 34 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 34 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 34 257.14285714285717 0.0017499999999999998
+include bonds_34.txt
+create_bonds single/bond 34 166 167
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 34 167 168
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 34 168 169
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 34 169 170
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 34 0.0003857142857142857
+include angles_34.txt
+create_bonds single/angle 34 166 167 168
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 34 167 168 169
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 34 168 169 170
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_35.txt
+create_atoms 35 single 0.013333333333333329 0.0 0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 35 single 0.013333333333333329 0.0 0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 35 single 0.013333333333333329 0.0 0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 35 single 0.013333333333333329 0.0 0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 35 single 0.013333333333333329 0.0 0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 35 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 35 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 35 257.14285714285694 0.0017500000000000016
+include bonds_35.txt
+create_bonds single/bond 35 171 172
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 35 172 173
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 35 173 174
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 35 174 175
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 35 0.0003857142857142854
+include angles_35.txt
+create_bonds single/angle 35 171 172 173
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 35 172 173 174
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 35 173 174 175
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_36.txt
+create_atoms 36 single 0.02222222222222222 0.0 -0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 36 single 0.02222222222222222 0.0 -0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 36 single 0.02222222222222222 0.0 -0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 36 single 0.02222222222222222 0.0 -0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 36 single 0.02222222222222222 0.0 -0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 36 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 36 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 36 257.14285714285694 0.0017500000000000016
+include bonds_36.txt
+create_bonds single/bond 36 176 177
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 36 177 178
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 36 178 179
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 36 179 180
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 36 0.0003857142857142854
+include angles_36.txt
+create_bonds single/angle 36 176 177 178
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 36 177 178 179
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 36 178 179 180
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_37.txt
+create_atoms 37 single 0.02222222222222222 0.0 -0.0235
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 37 single 0.02222222222222222 0.0 -0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 37 single 0.02222222222222222 0.0 -0.02
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 37 single 0.02222222222222222 0.0 -0.018250000000000002
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 37 single 0.02222222222222222 0.0 -0.0165
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 37 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 37 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 37 257.14285714285717 0.0017499999999999998
+include bonds_37.txt
+create_bonds single/bond 37 181 182
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 37 182 183
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 37 183 184
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 37 184 185
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 37 0.0003857142857142857
+include angles_37.txt
+create_bonds single/angle 37 181 182 183
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 37 182 183 184
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 37 183 184 185
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_38.txt
+create_atoms 38 single 0.02222222222222222 0.0 -0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 38 single 0.02222222222222222 0.0 -0.00175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 38 single 0.02222222222222222 0.0 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 38 single 0.02222222222222222 0.0 0.0017500000000000003
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 38 single 0.02222222222222222 0.0 0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 38 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 38 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 38 257.1428571428571 0.00175
+include bonds_38.txt
+create_bonds single/bond 38 186 187
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 38 187 188
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 38 188 189
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 38 189 190
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 38 0.0003857142857142857
+include angles_38.txt
+create_bonds single/angle 38 186 187 188
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 38 187 188 189
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 38 188 189 190
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_39.txt
+create_atoms 39 single 0.02222222222222222 0.0 0.016499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 39 single 0.02222222222222222 0.0 0.018249999999999995
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 39 single 0.02222222222222222 0.0 0.019999999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 39 single 0.02222222222222222 0.0 0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 39 single 0.02222222222222222 0.0 0.023499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 39 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 39 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 39 257.14285714285717 0.0017499999999999998
+include bonds_39.txt
+create_bonds single/bond 39 191 192
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 39 192 193
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 39 193 194
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 39 194 195
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 39 0.0003857142857142857
+include angles_39.txt
+create_bonds single/angle 39 191 192 193
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 39 192 193 194
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 39 193 194 195
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_40.txt
+create_atoms 40 single 0.02222222222222222 0.0 0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 40 single 0.02222222222222222 0.0 0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.002 seconds
+create_atoms 40 single 0.02222222222222222 0.0 0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 40 single 0.02222222222222222 0.0 0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 40 single 0.02222222222222222 0.0 0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 40 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 40 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 40 257.14285714285694 0.0017500000000000016
+include bonds_40.txt
+create_bonds single/bond 40 196 197
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 40 197 198
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 40 198 199
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 40 199 200
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 40 0.0003857142857142854
+include angles_40.txt
+create_bonds single/angle 40 196 197 198
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 40 197 198 199
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 40 198 199 200
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_41.txt
+create_atoms 41 single 0.03111111111111111 0.0 -0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 41 single 0.03111111111111111 0.0 -0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 41 single 0.03111111111111111 0.0 -0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 41 single 0.03111111111111111 0.0 -0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 41 single 0.03111111111111111 0.0 -0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 41 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 41 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 41 257.14285714285694 0.0017500000000000016
+include bonds_41.txt
+create_bonds single/bond 41 201 202
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 41 202 203
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 41 203 204
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 41 204 205
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 41 0.0003857142857142854
+include angles_41.txt
+create_bonds single/angle 41 201 202 203
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 41 202 203 204
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 41 203 204 205
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_42.txt
+create_atoms 42 single 0.03111111111111111 0.0 -0.0235
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 42 single 0.03111111111111111 0.0 -0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 42 single 0.03111111111111111 0.0 -0.02
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 42 single 0.03111111111111111 0.0 -0.018250000000000002
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 42 single 0.03111111111111111 0.0 -0.0165
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 42 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 42 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 42 257.14285714285717 0.0017499999999999998
+include bonds_42.txt
+create_bonds single/bond 42 206 207
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 42 207 208
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 42 208 209
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 42 209 210
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 42 0.0003857142857142857
+include angles_42.txt
+create_bonds single/angle 42 206 207 208
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 42 207 208 209
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 42 208 209 210
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_43.txt
+create_atoms 43 single 0.03111111111111111 0.0 -0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 43 single 0.03111111111111111 0.0 -0.00175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 43 single 0.03111111111111111 0.0 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 43 single 0.03111111111111111 0.0 0.0017500000000000003
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 43 single 0.03111111111111111 0.0 0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 43 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 43 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 43 257.1428571428571 0.00175
+include bonds_43.txt
+create_bonds single/bond 43 211 212
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 43 212 213
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 43 213 214
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 43 214 215
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 43 0.0003857142857142857
+include angles_43.txt
+create_bonds single/angle 43 211 212 213
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 43 212 213 214
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 43 213 214 215
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_44.txt
+create_atoms 44 single 0.03111111111111111 0.0 0.016499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 44 single 0.03111111111111111 0.0 0.018249999999999995
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 44 single 0.03111111111111111 0.0 0.019999999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 44 single 0.03111111111111111 0.0 0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 44 single 0.03111111111111111 0.0 0.023499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 44 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 44 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 44 257.14285714285717 0.0017499999999999998
+include bonds_44.txt
+create_bonds single/bond 44 216 217
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 44 217 218
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 44 218 219
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 44 219 220
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 44 0.0003857142857142857
+include angles_44.txt
+create_bonds single/angle 44 216 217 218
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 44 217 218 219
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 44 218 219 220
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_45.txt
+create_atoms 45 single 0.03111111111111111 0.0 0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 45 single 0.03111111111111111 0.0 0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 45 single 0.03111111111111111 0.0 0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 45 single 0.03111111111111111 0.0 0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 45 single 0.03111111111111111 0.0 0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 45 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 45 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 45 257.14285714285694 0.0017500000000000016
+include bonds_45.txt
+create_bonds single/bond 45 221 222
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 45 222 223
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 45 223 224
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 45 224 225
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 45 0.0003857142857142854
+include angles_45.txt
+create_bonds single/angle 45 221 222 223
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 45 222 223 224
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 45 223 224 225
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_46.txt
+create_atoms 46 single 0.04 0.0 -0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 46 single 0.04 0.0 -0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 46 single 0.04 0.0 -0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 46 single 0.04 0.0 -0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 46 single 0.04 0.0 -0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 46 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 46 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 46 257.14285714285694 0.0017500000000000016
+include bonds_46.txt
+create_bonds single/bond 46 226 227
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 46 227 228
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 46 228 229
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 46 229 230
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 46 0.0003857142857142854
+include angles_46.txt
+create_bonds single/angle 46 226 227 228
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 46 227 228 229
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 46 228 229 230
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_47.txt
+create_atoms 47 single 0.04 0.0 -0.0235
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 47 single 0.04 0.0 -0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 47 single 0.04 0.0 -0.02
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 47 single 0.04 0.0 -0.018250000000000002
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 47 single 0.04 0.0 -0.0165
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 47 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 47 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 47 257.14285714285717 0.0017499999999999998
+include bonds_47.txt
+create_bonds single/bond 47 231 232
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 47 232 233
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 47 233 234
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 47 234 235
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 47 0.0003857142857142857
+include angles_47.txt
+create_bonds single/angle 47 231 232 233
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 47 232 233 234
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 47 233 234 235
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_48.txt
+create_atoms 48 single 0.04 0.0 -0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 48 single 0.04 0.0 -0.00175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 48 single 0.04 0.0 0.0
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 48 single 0.04 0.0 0.0017500000000000003
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 48 single 0.04 0.0 0.0035
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 48 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 48 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 48 257.1428571428571 0.00175
+include bonds_48.txt
+create_bonds single/bond 48 236 237
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 48 237 238
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 48 238 239
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 48 239 240
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 48 0.0003857142857142857
+include angles_48.txt
+create_bonds single/angle 48 236 237 238
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 48 237 238 239
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 48 238 239 240
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_49.txt
+create_atoms 49 single 0.04 0.0 0.016499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 49 single 0.04 0.0 0.018249999999999995
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 49 single 0.04 0.0 0.019999999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 49 single 0.04 0.0 0.02175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 49 single 0.04 0.0 0.023499999999999997
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 49 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 49 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 49 257.14285714285717 0.0017499999999999998
+include bonds_49.txt
+create_bonds single/bond 49 241 242
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 49 242 243
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 49 243 244
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/bond 49 244 245
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+angle_coeff 49 0.0003857142857142857
+include angles_49.txt
+create_bonds single/angle 49 241 242 243
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 49 242 243 244
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+create_bonds single/angle 49 243 244 245
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        1        1       
+  special bond factors coul:  0        1        1       
+     2 = max # of 1-2 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+
+include beam_50.txt
+create_atoms 50 single 0.04 0.0 0.0365
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 50 single 0.04 0.0 0.03825
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 50 single 0.04 0.0 0.04
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 50 single 0.04 0.0 0.04175
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+create_atoms 50 single 0.04 0.0 0.043500000000000004
+Created 1 atoms
+  using lattice units in orthogonal box = (-0.05 -0.015 -0.05) to (0.05 0.015 0.05)
+  create_atoms CPU = 0.000 seconds
+set type 50 diameter 0.003
+Setting atom values ...
+  5 settings made for diameter
+set type 50 density 0.01
+Setting atom values ...
+  5 settings made for density
+bond_coeff 50 257.14285714285694 0.0017500000000000016
+include bonds_50.txt
+create_b

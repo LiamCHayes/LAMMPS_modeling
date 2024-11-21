@@ -1,0 +1,3 @@
+create_bonds single/angle 28 136 137 138
+create_bonds single/angle 28 137 138 139
+create_bonds single/angle 28 138 139 140
