@@ -29,4 +29,4 @@ if __name__ == "__main__":
     # Run simulation
     sim.add_viscosity(viscosity)
     sim.design_dump_files(0.05)
-    sim.run_simulation(1, timestep)
+    sim.run_simulation(1)
