@@ -12,6 +12,7 @@ if __name__ == "__main__":
     sim = Simulation("run", 3, 0.1, 0.03, 0.1)
 
     # Beam parameters
+    beam_length = 0.01
     beam_stiffness = 10 ** 5
     beam_thickness = 0.003
 
@@ -23,7 +24,7 @@ if __name__ == "__main__":
     # Add beam
     x_position = np.linspace(-0.04, 0.04, 3)
     for x in x_position:
-        beam_type, bond_type, angle_type = sim.add_beam(5, np.array([x, 0, 0]),np.array([x, 0, 0]), beam_thickness, beam_stiffness, density)
+        beam_type, bond_type, angle_type = sim.add_beam(5, np.array([x, 0, -beam_length/2]),np.array([x, 0, beam_length/2]), beam_thickness, beam_stiffness, density)
 
 
     # Run simulation
