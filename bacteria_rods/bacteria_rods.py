@@ -25,7 +25,7 @@ if __name__ == "__main__":
     timestep = 1 * 10 ** -7
     
     # Start a simulation with the name simname
-    sim = Simulation(simname, 3, n_beams * d_between_beams, 0.01, n_beam_rows * d_between_beam_rows)
+    sim = Simulation(simname, 3, n_beams * d_between_beams, 0.01, 0.1)
     # Make the simulationStation hard. We can also do this sim periodically, so this is not required
     sim.add_walls(youngs_modulus = E_walls)
 
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     sim.turn_on_granular_potential(youngs_modulus = E_walls)
 
     beam_positions_row = np.linspace(-0.5 * d_between_beams * (n_beams - 1), 0.5 * d_between_beams * (n_beams - 1), n_beams).tolist()
-    beam_positions_col = np.linspace(-0.5 * d_between_beam_rows * (n_beams - 1), 0.5 * d_between_beam_rows * (n_beams - 1), n_beams).tolist()
+    beam_positions_col = np.linspace(-0.4, .04, 2)
     for bp_row in beam_positions_row:
         for bp_col in beam_positions_col:
             beam, _, _ = sim.add_beam(n_particles_per_beam, np.array([bp_row,bp_col,-beam_length/2]),np.array([bp_row,bp_col,beam_length/2]), beam_thickness, E_beams, density)
