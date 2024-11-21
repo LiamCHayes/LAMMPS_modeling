@@ -9,9 +9,7 @@ if __name__ == "__main__":
     simname = str(sys.argv[1])
 
     n_beams = 10
-    n_beam_rows = 10
     d_between_beams = 0.005
-    d_between_beam_rows = 0.1
     beam_length = 0.005
     beam_thickness = 0.002
     n_particles_per_beam = 150
@@ -35,11 +33,9 @@ if __name__ == "__main__":
     sim.turn_on_granular_potential(youngs_modulus = E_walls)
 
     beam_positions_row = np.linspace(-0.5 * d_between_beams * (n_beams - 1), 0.5 * d_between_beams * (n_beams - 1), n_beams).tolist()
-    beam_positions_col = np.linspace(-0.4, .04, 2)
     for bp_row in beam_positions_row:
-        for bp_col in beam_positions_col:
-            beam, _, _ = sim.add_beam(n_particles_per_beam, np.array([bp_row,bp_col,-beam_length/2]),np.array([bp_row,bp_col,beam_length/2]), beam_thickness, E_beams, density)
-            sim.turn_on_granular_potential(type1 = beam, type2 = beam, youngs_modulus = 0)
+        beam, _, _ = sim.add_beam(n_particles_per_beam, np.array([bp_row,0,-beam_length/2]),np.array([bp_row,0,beam_length/2]), beam_thickness, E_beams, density)
+        sim.turn_on_granular_potential(type1 = beam, type2 = beam, youngs_modulus = 0)
 
     """# Clamp the clamp particles. Here we also clamp them in x and y, but this can be changed.
     bottom_clamp = [i for i in range(1,n_beams*n_particles_per_beam+1) if i%n_particles_per_beam in [1,2]]
