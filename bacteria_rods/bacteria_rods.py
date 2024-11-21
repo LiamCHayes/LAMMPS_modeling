@@ -26,7 +26,7 @@ if __name__ == "__main__":
     z_offset = np.linspace(-0.04, 0.04, 5)
     for x in x_position:
         for z in z_offset:
-            beam_type, bond_type, angle_type = sim.add_beam(8, np.array([x, 0, -beam_length/2+z]),np.array([x, 0, beam_length/2+z]), beam_thickness, beam_stiffness, density)
+            beam_type, bond_type, angle_type = sim.add_beam(10, np.array([x, 0, -beam_length/2+z]),np.array([x, 0, beam_length/2+z]), beam_thickness, beam_stiffness, density)
 
 
     # Run simulation
