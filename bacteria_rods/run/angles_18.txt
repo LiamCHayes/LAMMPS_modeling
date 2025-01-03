@@ -1,8 +1,0 @@
-create_bonds single/angle 18 171 172 173
-create_bonds single/angle 18 172 173 174
-create_bonds single/angle 18 173 174 175
-create_bonds single/angle 18 174 175 176
-create_bonds single/angle 18 175 176 177
-create_bonds single/angle 18 176 177 178
-create_bonds single/angle 18 177 178 179
-create_bonds single/angle 18 178 179 180

@@ -1,9 +1,0 @@
-create_bonds single/bond 43 421 422
-create_bonds single/bond 43 422 423
-create_bonds single/bond 43 423 424
-create_bonds single/bond 43 424 425
-create_bonds single/bond 43 425 426
-create_bonds single/bond 43 426 427
-create_bonds single/bond 43 427 428
-create_bonds single/bond 43 428 429
-create_bonds single/bond 43 429 430

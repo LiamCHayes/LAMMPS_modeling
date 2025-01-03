@@ -1,9 +1,0 @@
-create_bonds single/bond 39 381 382
-create_bonds single/bond 39 382 383
-create_bonds single/bond 39 383 384
-create_bonds single/bond 39 384 385
-create_bonds single/bond 39 385 386
-create_bonds single/bond 39 386 387
-create_bonds single/bond 39 387 388
-create_bonds single/bond 39 388 389
-create_bonds single/bond 39 389 390

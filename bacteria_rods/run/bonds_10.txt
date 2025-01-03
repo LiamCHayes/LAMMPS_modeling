@@ -1,9 +1,0 @@
-create_bonds single/bond 10 91 92
-create_bonds single/bond 10 92 93
-create_bonds single/bond 10 93 94
-create_bonds single/bond 10 94 95
-create_bonds single/bond 10 95 96
-create_bonds single/bond 10 96 97
-create_bonds single/bond 10 97 98
-create_bonds single/bond 10 98 99
-create_bonds single/bond 10 99 100

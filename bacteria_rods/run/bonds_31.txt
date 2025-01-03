@@ -1,9 +1,0 @@
-create_bonds single/bond 31 301 302
-create_bonds single/bond 31 302 303
-create_bonds single/bond 31 303 304
-create_bonds single/bond 31 304 305
-create_bonds single/bond 31 305 306
-create_bonds single/bond 31 306 307
-create_bonds single/bond 31 307 308
-create_bonds single/bond 31 308 309
-create_bonds single/bond 31 309 310
