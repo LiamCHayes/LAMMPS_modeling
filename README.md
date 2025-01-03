@@ -15,3 +15,13 @@ When you start using NUFEB, there are a few things that might be helpful. Most o
 ### `initialize_from_data`
 This folder contains the code to initialize the LAMMPS simulation from the bacteria location data provided by Prof. Dunlop. 
 
+`label_fr13.npy` - Bacteria location data from Prof. Dunlop
+
+`initialize.py` - The code to go from bacteria location data to LAMMPS locations
+
+`initialize_in_lammps.py` - Example code using functions from `initialize.py` to create a LAMMPS simulation
+
+`run` - Output of `initialize_in_lammps.py`
+
+### `simple_rod`
+Example script to add a single rod to the simulation. For some reason, when adding rods in a for loop you need to turn on and off a granular potential before and after you add each rod. See `initialize_in_lammps.py` for an example.
